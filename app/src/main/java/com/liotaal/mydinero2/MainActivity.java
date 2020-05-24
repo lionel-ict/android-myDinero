@@ -1,4 +1,4 @@
-package com.liotaal.mydinero;
+package com.liotaal.mydinero2;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
