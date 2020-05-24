@@ -69,28 +69,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="EURO" />
+            android:text="EURO"
+            android:textColor="@color/colorPrimaryDark2" />
 
         <Button
             android:id="@+id/botonDolar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="DOLAR" />
+            android:text="DOLAR"
+            android:textColor="@color/colorPrimaryDark2" />
 
         <Button
             android:id="@+id/botonLibra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="LIBRA" />
+            android:text="LIBRA"
+            android:textColor="@color/colorPrimaryDark2" />
 
         <Button
             android:id="@+id/botonPort"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="PORT" />
+            android:text="PORT"
+            android:textColor="@color/colorPrimaryDark2" />
 
     </LinearLayout>
 
