@@ -7,15 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="myDinero2"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="15sp"
-        android:textStyle="bold" />
-
     <Space
         android:layout_width="match_parent"
         android:layout_height="10dp" />

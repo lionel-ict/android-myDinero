@@ -5,6 +5,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Context;
 import com.google.android.material.snackbar.Snackbar;
+import android.view.Menu;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -131,6 +133,19 @@ public class MainActivity extends AppCompatActivity {
         mTextEuro.setText(savedInstanceState.getString("EURO"));
         mTextDolar.setText(savedInstanceState.getString("DOLAR"));
         mTextLibra.setText(savedInstanceState.getString("LIBRA"));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mimenu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //Toast.makeText(getApplicationContext(), "Botón X pulsado", Toast.LENGTH_SHORT).show();
+        finishAffinity();
+        return true;
     }
 
     private void mostrarSnack(View v, String msg) {
